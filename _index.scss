@@ -64,7 +64,7 @@
         
         .wrap .bg-right {
             position: absolute;
-            top: 1760px;
+            top: 1632px;
             right: 0;
             height: 320px;
             width: 210px;
@@ -131,6 +131,7 @@
             max-width: 352px;
             height: 250px;
             background-color: #fff;
+            box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1)
         }
         
         .owl-carousel img {
@@ -168,6 +169,14 @@
             vertical-align: -9%;
         }
         
+        .message {
+            overflow-x: hidden !important;
+        }
+        
+        .owl-carousel .owl-stage-outer {
+            overflow: visible !important;
+        }
+        
         .owl-theme .owl-dots .owl-dot span {
             background: #DDDDDD !important;
         }
@@ -181,9 +190,8 @@
         
         .footer-top {
             max-height: 503px;
-            background: url(./img/home_footer.svg);
+            background: url(./img/home_footer.svg) no-repeat;
             background-position: top center;
-            background-size: cover;
         }
         
         .footer-right,
@@ -203,7 +211,7 @@
         }
         
         .footer-top .footer-top-text {
-            padding-top: 266px;
+            padding-top: 150px;
         }
         
         .btn-danger:hover {
@@ -221,12 +229,4 @@
             bottom: 30px;
             right: 30px;
             z-index: 30;
-        }
-        
-        .message {
-            overflow-x: hidden !important;
-        }
-        
-        .owl-carousel .owl-stage-outer {
-            overflow: visible !important;
         }
