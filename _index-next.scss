@@ -120,11 +120,11 @@
     }
     
     .accordion-button::after {
-        background: url(../img/icon_plus.svg);
+        background-image: url(../img/icon_plus.svg) !important;
     }
     
     .accordion-button:not(.collapsed)::after {
-        background: url(../img/icon_minus.svg);
+        background-image: url(../img/icon_minus.svg) !important;
         background-position: center;
     }
     
