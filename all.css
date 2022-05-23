@@ -13742,11 +13742,11 @@ ul {
 }
 
 .accordion-button::after {
-  background-image: url(../img/icon_plus.svg) !important;
+  background-image: url(./img/icon_plus.svg) !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url(../img/icon_minus.svg) !important;
+  background-image: url(./img/icon_minus.svg) !important;
   background-position: center;
 }
 
