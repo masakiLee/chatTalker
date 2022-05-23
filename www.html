@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <title>Document</title>
+    <style>
+        .swiper {
+            width: 100%;
+            height: 430px;
+            margin: 100px auto;
+        }
+        
+        .swiper-slide {
+            position: relative;
+            max-width: 352px;
+            height: 250px;
+            margin: 60px 0;
+            border-radius: 12px;
+            border: 2px solid rgb(216, 216, 216);
+            box-shadow: 5px 5px 1px #ccc;
+            background: #fff;
+            padding: 0 30px;
+            /* Center slide text vertically */
+            /* display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center; */
+        }
+        
+        .swiper-slide .user {
+            position: absolute;
+            top: -60px;
+            left: 32px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        
+        .swiper-slide hr {
+            border: 1px solid #ccc;
+            width: 292px;
+            margin: 0;
+        }
+        
+        .ceo {
+            margin-right: 86px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+                <img src="./img/user01.jpg " alt="user01 " class="user ">
+                <p class=" pt-7 pb-4 ">原來聊天機器人可以這麼有人性！團隊有<br>完整的行銷計畫提供數位整合，讓我們公<br>司的產品用更活潑的方式讓使用者認識。
+                </p>
+                <hr />
+                <p class="fw-bold pt-4 ">清心寡慾設計公司</p>
+                <p class="ceo d-inline "> Lina 執行長 </p>
+                <img src="./img/icon_star.svg " alt="icon_star" cless="ceo-star d-inline ">
+                <img src="./img/icon_star.svg " alt="icon_star" cless="ceo-star d-inline ">
+                <img src="./img/icon_star.svg " alt="icon_star" cless="ceo-star d-inline ">
+                <img src="./img/icon_star.svg " alt="icon_star" cless="ceo-star d-inline ">
+                <img src="./img/icon_star.svg " alt="icon_star" cless="ceo-star d-inline ">
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js " integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script>
+        <script src="./swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 16,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,231 @@
+        *,
+        *:after,
+        *:before {
+            box-sizing: border-box;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        img,
+        div,
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .wrap {
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        .wrap .bg-home {
+            position: absolute;
+            max-height: 768px;
+            max-width: 851px;
+            top: 0;
+            right: 0;
+            z-index: -10;
+        }
+        
+        .wrap .bg-home-sm {
+            position: absolute;
+            top: 300px;
+            right: 0;
+            z-index: -10;
+        }
+        
+        .wrap .bg-left {
+            position: absolute;
+            top: 589px;
+            left: -222px;
+            z-index: -10;
+        }
+        
+        .wrap .bg-left-sm {
+            position: absolute;
+            top: 16px;
+            left: -140px;
+            z-index: -10;
+        }
+        
+        .wrap .bg-right {
+            position: absolute;
+            top: 1760px;
+            right: 0;
+            height: 320px;
+            width: 210px;
+            background: url(./img/ball02.svg)no-repeat;
+        }
+        
+        .wrap .bg-right-sm {
+            position: absolute;
+            top: -140px;
+            right: 0;
+            height: 135px;
+            width: 88px;
+            background: url(./img/ball02.svg)no-repeat;
+            background-size: cover;
+            z-index: -10;
+        }
+        
+        .wrap .bg-down {
+            position: absolute;
+            top: 2740px;
+            left: 110px;
+            z-index: -10;
+        }
+        
+        .wrap .bg-down-sm {
+            position: absolute;
+            top: 130px;
+            left: -54px;
+            z-index: -10;
+        }
+        
+        .top-radius {
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        
+        .all-radius {
+            border-radius: 12px;
+        }
+        
+        .pro .pro-left .pro-card {
+            position: relative;
+            max-width: 230px;
+            height: 100%;
+            box-shadow: 2px 2px 6px #ccc;
+            background-color: #fff;
+        }
+        
+        .pro .pro-card .round {
+            width: 86px;
+            height: 86px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 6px #ccc;
+        }
+        
+        .pro .pro-card .round-icon {
+            position: absolute;
+            top: 49px;
+            left: 51px;
+        }
+        
+        .messageBox {
+            position: relative;
+            max-width: 352px;
+            height: 250px;
+            background-color: #fff;
+        }
+        
+        .owl-carousel img {
+            width: 80px !important;
+            display: inline-block !important;
+        }
+        
+        .messageBox {
+            max-width: 352px;
+        }
+        
+        .messageBox .user {
+            position: absolute;
+            top: -60px;
+            left: 32px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        
+        .messageBox hr {
+            border: 1px solid #ccc;
+            width: 292px;
+            margin: 0;
+        }
+        
+        .messageBox .ceo {
+            margin-right: 100px;
+            display: inline-block;
+        }
+        
+        .messageBox .ceoStar {
+            max-width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: -9%;
+        }
+        
+        .owl-theme .owl-dots .owl-dot span {
+            background: #DDDDDD !important;
+        }
+        
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background-color: #FFD153 !important;
+            width: 16px;
+            height: 10px;
+        }
+        
+        .footer-top {
+            background: url(./img/home_footer.svg);
+            background-position: top center;
+            background-size: cover;
+        }
+        
+        .footer-right,
+        .footer-left {
+            position: absolute;
+            max-width: 70px;
+        }
+        
+        .footer-right {
+            top: 210px;
+            right: 10px;
+        }
+        
+        .footer-left {
+            top: 274px;
+            left: 11px;
+        }
+        
+        .footer-top .footer-top-text {
+            padding-top: 266px;
+        }
+        
+        .btn-danger:hover {
+            box-shadow: 3px 3px 5px #fff;
+        }
+        
+        .btn-success:hover {
+            box-shadow: 3px 3px 5px #ccc;
+        }
+        
+        .top {
+            position: fixed;
+            width: 71px;
+            height: 71px;
+            bottom: 30px;
+            right: 30px;
+            z-index: 30;
+        }
+        
+        .message {
+            overflow-x: hidden !important;
+        }
+        
+        .owl-carousel .owl-stage-outer {
+            overflow: visible !important;
+        }

@@ -1,0 +1,133 @@
+    .header {
+        position: relative;
+    }
+    
+    .header .banner-bg {
+        position: absolute;
+        width: 100%;
+        height: 495px;
+        background-color: #F7F9FD;
+        z-index: -3;
+        border-bottom-left-radius: 300px;
+    }
+    
+    .header .banner-bg-sm {
+        position: absolute;
+        top: 93px;
+        right: 0;
+        width: 100%;
+        height: 495px;
+        background-color: #F7F9FD;
+        z-index: -5;
+        border-bottom-left-radius: 180px;
+    }
+    
+    .header .banner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -2;
+    }
+    
+    .header .banner-sm {
+        position: absolute;
+        top: 93px;
+        left: 0;
+        width: 100%;
+        z-index: -2;
+    }
+    
+    .banner-text {
+        height: 264px;
+    }
+    
+    .bg-next-left {
+        position: absolute;
+        top: 330px;
+        left: -246px;
+        z-index: -5;
+    }
+    
+    .bg-next-left-sm {
+        position: absolute;
+        top: 768px;
+        left: -121px;
+        z-index: -5;
+    }
+    
+    .tab_list {
+        overflow: auto;
+    }
+    
+    .tab_list li {
+        border-radius: 25px;
+        border: 2px solid #56C4C5;
+        padding: 12px 28px;
+        margin: 0 8px;
+        color: #56C4C5;
+        white-space: nowrap;
+    }
+    
+    .tab_list .current {
+        background-color: #56C4C5;
+        color: white;
+    }
+    
+    .tab_con {
+        margin: 0 auto;
+    }
+    
+    .item {
+        display: none;
+    }
+    
+    .p-12 {
+        font-size: 12px;
+    }
+    
+    .item-card {
+        background: #fff;
+        max-width: 444px;
+    }
+    
+    .item-card .item-sub .item-sub-moeny {
+        width: 169px;
+        height: 108px;
+        padding: 24px 0;
+        background-color: #F5F5F5;
+    }
+    
+    .info {
+        margin: 0 auto;
+        max-width: 904px;
+    }
+    
+    .accordion-flush,
+    .accordion-item,
+    .accordion-header,
+    .accordion-button,
+    .accordion-body {
+        border-radius: 12px !important;
+    }
+    
+    .accordion-button:focus {
+        border-color: none;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        color: #56C4C5;
+        background-color: #ffffff;
+    }
+    
+    .accordion-button::after {
+        background-image: url(../img/icon_plus.svg);
+    }
+    
+    .accordion-button:not(.collapsed)::after {
+        background-image: url(../img/icon_minus.svg);
+        background-position: center;
+    }
+    
+    .btn:hover {
+        color: #56C4C5;
+    }
